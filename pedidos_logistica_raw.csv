@@ -1,0 +1,501 @@
+pedido_id,fecha_pedido,fecha_entrega,cliente,region,categoria,monto_venta,costo_envio,estado_entrega
+ORD-10000,2026-07-03,,Camila Martínez,Metropolitana,Vestuario,-24280.0,2990.0,
+ORD-10001,09/07/2026,2026-07-24,  valentina fuentes  ,Valparaíso,Calzado,371470.0,6990.0,Devuelto
+ORD-10002,2026-08-13,2026-08-19,Diego González,Metropolitana,Belleza,119180.0,6990.0,Entregado
+ORD-10003,02/09/2026,2026-09-14,Tomás Silva,Región Metropolitana,Hogar,$370.400,6990.0,Entregado
+ORD-10004,08/09/2026,,Nicolás Fuentes,Araucanía,Hogar,192680.0,6990.0,En tránsito
+ORD-10005,2026-08-21,2026-08-30,  francisca díaz  ,Biobío,Belleza,153130.0,4990.0,Entregado
+ORD-10006,2026-09-05,2026-09-12,Joaquín Martínez,Araucanía,Hogar,157240.0,3990.0,Entregado
+ORD-10007,2026-08-04,,Constanza Rojas,Biobío,belleza,96360.0,6990.0,En tránsito
+ORD-10008,2026-06-10,2026-06-12,JOAQUÍN CONTRERAS,Metropolitana,Belleza,195780.0,0.0,Entregado
+ORD-10009,2026-06-22,2026-06-25,Benjamín Rojas,RM,Vestuario,416580.0,0.0,Entregado
+ORD-10010,2026-06-07,2026-06-05,Javiera Rodríguez,Región Metropolitana,Deportes,$314.960,2990.0, entregado 
+ORD-10011,2026-06-28,2026-07-10,Valentina Soto,Biobío,Belleza,315520.0,6990.0,Entregado
+ORD-10012,22/06/2026,2026-06-30,Isidora Silva,Valparaíso,Electrónica,12670.0,3990.0,Entregado
+ORD-10013,2026-06-03,,Diego Muñoz,Metropolitana,Electrónica,233260.0,6990.0,Cancelado
+ORD-10014,2026-06-24,2026-06-27,Francisca Contreras,Metropolitana,Vestuario,118090.0,,Devuelto
+ORD-10014,2026-08-27,2026-09-05,Javiera Pérez,Biobío,hogar,36340.0,0.0,Entregado
+ORD-10016,2026-07-06,2026-07-18,Isidora Fuentes,Biobío,Deportes,432630.0,2990.0,Entregado
+ORD-10017,2026-07-25,,  sofía torres  ,Los Lagos,deportes,100170.0,2990.0,Cancelado
+ORD-10018,2026-08-30,,Sebastián Pérez,Valparaíso,Hogar,348590.0,0.0,Cancelado
+ORD-10019,01/09/2026,2026-09-07,Valentina López,Metropolitana,Belleza,191590.0,3990.0,Entregado
+ORD-10020,25/06/2026,2026-06-30,Camila Díaz,VALPARAISO,electrónica,$279.050,0.0,Entregado
+ORD-10021,2026-08-01,,Francisca Díaz,Los Lagos,Hogar,90130.0,,Pendiente
+ORD-10022,2026-09-06,,,VALPARAISO,electrónica,305060.0,4990.0,Cancelado
+ORD-10023,2026-08-02,,Isidora Soto,Los Lagos,Deportes,351310.0,4990.0,Pendiente
+ORD-10024,2026-09-04,2026-09-05,Martina Pérez,Valparaíso,deportes,208150.0,6990.0,Entregado
+ORD-10025,03/09/2026,2026-09-07,Camila Morales,Biobío,,184530.0,4990.0,Entregado
+ORD-10026,26/09/2026,2026-10-04,  benjamín silva  ,Metropolitana,Vestuario,229790.0,6990.0, entregado 
+ORD-10027,2026-07-23,2026-07-27,Valentina Rojas,Valparaiso,Electrónica,48760.0,2990.0,Entregado
+ORD-10028,16/06/2026,,Sofía Pérez,Araucanía,Hogar,320910.0,2990.0,En tránsito
+ORD-10029,19/07/2026,2026-07-22,Tomás Contreras,metropolitana,vestuario,72760.0,4990.0,Entregado
+ORD-10030,24/06/2026,2026-06-22,Benjamín López,VALPARAISO,Calzado,228450.0,4990.0,Entregado
+ORD-10031,2026-08-15,2026-08-16,JAVIERA DÍAZ,Valparaíso,Electrónica,250370.0,0.0,Entregado
+ORD-10032,2026-06-08,2026-06-18,,Valparaíso,Belleza,414890.0,3990.0,Entregado
+ORD-10033,2026-08-28,2026-09-09,  diego gonzález  ,Valparaíso,Deportes,419780.0,4990.0,Entregado
+ORD-10034,2026-09-06,2026-09-18,Diego Rojas,Valparaíso,Vestuario,154170.0,0.0,Entregado
+ORD-10035,2026-09-02,2026-09-12,Diego Martínez,Valparaíso,Hogar,443950.0,6990.0, entregado 
+ORD-10036,2026-08-19,2026-08-30,Lucas Silva,Maule,deportes,365320.0,,Entregado
+ORD-10037,2026-06-04,,Sebastián Fuentes,Metropolitana,Hogar,280350.0,,En tránsito
+ORD-10038,2026-06-26,2026-07-05,  matías díaz  ,Metropolitana,Calzado,11690.0,6990.0, entregado 
+ORD-10039,2026-09-15,2026-09-23,Sebastián Silva,Biobío,Belleza,293730.0,6990.0,Entregado
+ORD-10040,2026-07-30,2026-08-04,Nicolás Martínez,Metropolitana,Belleza,-308080.0,6990.0,Entregado
+ORD-10041,2026-09-11,,Sebastián Muñoz,Metropolitana,Electrónica,379760.0,2990.0, en tránsito 
+ORD-10042,2026-07-20,2026-07-26,,Coquimbo,,128720.0,3990.0,Entregado
+ORD-10043,2026-07-09,2026-07-11,Diego Soto,Metropolitana,belleza,19990.0,4990.0, entregado 
+ORD-10044,2026-08-07,2026-08-16,Matías Soto,Metropolitana,Electrónica,67520.0,6990.0,Entregado
+ORD-10045,2026-07-10,,Javiera Sepúlveda,Metropolitana,Hogar,214890.0,,En tránsito
+ORD-10046,2026-09-06,,Lucas Pérez,Biobío,Electrónica,131000.0,2990.0,Cancelado
+ORD-10047,15/06/2026,2026-06-21,  matías morales  ,Coquimbo,Belleza,128530.0,2990.0,Entregado
+ORD-10048,2026-08-18,,NICOLÁS MUÑOZ,Biobío,belleza,407350.0,4990.0,
+ORD-10049,2026-08-16,2026-08-22,Valentina Silva,Metropolitana,Electrónica,369490.0,4990.0,Entregado
+ORD-10050,2026-06-12,,Matías Rojas,Maule,vestuario,310850.0,2990.0,Cancelado
+ORD-10051,2026-09-23,,Isidora Contreras,Araucanía,Hogar,302340.0,0.0,Cancelado
+ORD-10052,2026-06-15,2026-06-25,Sofía Sepúlveda,Araucanía,Calzado,233000.0,6990.0,Entregado
+ORD-10053,2026-09-10,2026-09-14,Camila Hernández,Valparaíso,Deportes,438490.0,6990.0,Entregado
+ORD-10054,2026-07-26,2026-08-06,  martina martínez  ,valparaíso,Deportes,419510.0,4990.0,Entregado
+ORD-10055,2026-06-13,2026-06-15,Valentina Silva,Metropolitana,,272010.0,0.0,Entregado
+ORD-10056,2026-09-13,2026-09-16,Benjamín González,Los Lagos,belleza,208760.0,2990.0,Entregado
+ORD-10057,2026-07-11,,Sebastián Pérez,Valparaíso,Calzado,422070.0,,En tránsito
+ORD-10058,2026-08-05,2026-08-14,Sofía Martínez,Araucanía,Electrónica,9360.0,3990.0,Entregado
+ORD-10059,2026-07-01,2026-07-08,Isidora Torres,Metropolitana,belleza,249390.0,4990.0,Entregado
+ORD-10060,2026-07-17,2026-07-15,  tomás martínez  ,Región Metropolitana,Hogar,294940.0,2990.0,Entregado
+ORD-10061,2026-08-22,,Sofía Martínez,Coquimbo,Vestuario,419270.0,4990.0,Pendiente
+ORD-10062,2026-06-29,2026-07-03,  camila díaz  ,Metropolitana,Hogar,$127.730,0.0,Entregado
+ORD-10063,2026-08-30,2026-09-11,Sofía Muñoz,Metropolitana,Vestuario,442760.0,0.0,Entregado
+ORD-10064,18/08/2026,2026-08-20,Sofía Muñoz,Araucanía,belleza,246780.0,6990.0,Entregado
+ORD-10065,2026-07-31,,Matías Rodríguez,Maule,electrónica,164630.0,6990.0,Cancelado
+ORD-10066,2026-09-02,2026-09-12,Tomás Pérez,Biobío,Belleza,445750.0,0.0,Entregado
+ORD-10067,2026-06-10,2026-06-08,  nicolás fuentes  ,Valparaíso,Deportes,58180.0,4990.0, entregado 
+ORD-10068,2026-06-23,,Francisca Fuentes,Metropolitana,belleza,389150.0,2990.0,En tránsito
+ORD-10069,2026-09-05,,Isidora Soto,Valparaíso,hogar,290170.0,3990.0,En tránsito
+ORD-10070,15/06/2026,2026-06-24,Lucas Silva,Coquimbo,Deportes,310420.0,,Entregado
+ORD-10071,2026-09-27,2026-09-28,  diego silva  ,Metropolitana,Deportes,243300.0,3990.0,Entregado
+ORD-10072,2026-07-05,2026-07-16,Francisca Martínez,Metropolitana,hogar,332830.0,2990.0,Entregado
+ORD-10073,2026-06-02,,Constanza Morales,Metropolitana,Electrónica,54810.0,, pendiente 
+ORD-10074,19/08/2026,,  nicolás martínez  ,RM,Electrónica,428170.0,6990.0,Cancelado
+ORD-10075,2026-08-24,2026-08-26,Joaquín Morales,Maule,Calzado,120710.0,3990.0,Entregado
+ORD-10076,2026-08-28,,  martina martínez  ,Valparaíso,Deportes,41620.0,0.0,En tránsito
+ORD-10077,2026-09-13,2026-09-23,Martina Rodríguez, Metropolitana ,Belleza,293650.0,6990.0,Entregado
+ORD-10078,2026-09-25,2026-10-07,Francisca Díaz,Metropolitana,Hogar,205630.0,0.0, entregado 
+ORD-10079,2026-07-05,,Tomás Morales,Metropolitana,Deportes,321050.0,0.0,
+ORD-10080,2026-06-01,,Tomás López,Araucanía,Belleza,245060.0,0.0,En tránsito
+ORD-10081,22/08/2026,2026-08-30,BENJAMÍN LÓPEZ,Metropolitana,Belleza,136860.0,2990.0,Entregado
+ORD-10082,2026-07-20,2026-07-31,Tomás Morales,Valparaíso,Belleza,92550.0,2990.0,Entregado
+ORD-10083,2026-06-09,2026-06-17,Lucas Soto,Metropolitana,Belleza,16230.0,4990.0,Entregado
+ORD-10084,2026-09-12,2026-09-21,Francisca Rojas, Metropolitana ,Belleza,264490.0,0.0,Entregado
+ORD-10085,2026-09-26,,  diego contreras  ,Metropolitana,Belleza,288000.0,6990.0,
+ORD-10086,15/08/2026,,Lucas Rojas,Metropolitana,Belleza,280490.0,4990.0, pendiente 
+ORD-10087,2026-08-27,2026-08-28,Constanza Torres,Los Lagos,Calzado,156950.0,3990.0,Entregado
+ORD-10088,2026-07-27,2026-08-07,Sebastián Fuentes,Metropolitana,Electrónica,,4990.0, entregado 
+ORD-10089,2026-06-01,2026-06-08,Javiera Muñoz,O'Higgins,Deportes,358380.0,3990.0,Entregado
+ORD-10090,2026-07-23,2026-08-04,Sofía Hernández,Coquimbo,Electrónica,428080.0,0.0,Entregado
+ORD-10091,25/06/2026,2026-07-04,Javiera Fuentes,Metropolitana,Vestuario,$213.710,0.0, entregado 
+ORD-10092,2026-08-27,,Lucas Hernández,Coquimbo,Hogar,415900.0,3990.0,Cancelado
+ORD-10093,2026-09-12,2026-09-21,LUCAS SILVA,Metropolitana,hogar,355400.0,4990.0, entregado 
+ORD-10094,2026-07-12,,Isidora Morales,Metropolitana,Calzado,57560.0,2990.0,En tránsito
+ORD-10095,29/06/2026,2026-07-03,Diego López,Biobío,Deportes,209650.0,3990.0, entregado 
+ORD-10096,2026-06-26,2026-06-28,Tomás Morales,Metropolitana,Belleza,211230.0,6990.0,Entregado
+ORD-10097,2026-09-10,2026-09-14,Tomás López,Maule,deportes,386920.0,4990.0,Entregado
+ORD-10098,2026-09-02,,  constanza torres  ,Maule,Electrónica,107070.0,0.0,Pendiente
+ORD-10099,06/06/2026,2026-06-15,Constanza Fuentes,RM,Belleza,366080.0,0.0,Entregado
+ORD-10100,2026-06-02,2026-06-06,Diego Torres,Metropolitana,Hogar,49000.0,6990.0,Entregado
+ORD-10101,2026-06-04,2026-06-07,,Metropolitana,Vestuario,172350.0,0.0, entregado 
+ORD-10102,2026-08-28,2026-09-07,Constanza Soto,Biobío,Hogar,359360.0,0.0,Entregado
+ORD-10103,2026-09-25,,Camila López,Metropolitana,Calzado,282030.0,0.0, cancelado 
+ORD-10104,2026-09-08,2026-09-18,Tomás Pérez,Araucanía,Vestuario,334180.0,2990.0,Devuelto
+ORD-10105,2026-09-23,,Francisca Contreras,Los Lagos,Belleza,161240.0,6990.0,En tránsito
+ORD-10106,2026-08-08,2026-08-20,ISIDORA FUENTES,RM,Belleza,423930.0,0.0,Entregado
+ORD-10107,2026-06-23,2026-07-07,,RM,Calzado,74240.0,0.0, devuelto 
+ORD-10108,2026-08-27,2026-09-07,Joaquín Silva,Metropolitana,Hogar,,2990.0,Entregado
+ORD-10109,2026-08-06,2026-08-12,CAMILA SILVA,Metropolitana,Belleza,302640.0,6990.0,Entregado
+ORD-10110,2026-09-10,,Sofía Torres,Araucanía,Calzado,136070.0,2990.0,En tránsito
+ORD-10111,2026-06-21,2026-07-03,Isidora Rodríguez,Coquimbo,Deportes,359350.0,6990.0,Entregado
+ORD-10112,2026-07-04,2026-07-10,Sebastián Soto,Biobío,Hogar,206750.0,0.0,Entregado
+ORD-10113,2026-08-03,,,Biobío,deportes,436840.0,3990.0,Cancelado
+ORD-10114,2026-07-08,,Constanza López,Metropolitana,Belleza,361610.0,0.0,En tránsito
+ORD-10115,24/09/2026,,Diego Díaz,Biobío,Deportes,281320.0,6990.0,
+ORD-10116,2026-08-14,,Sebastián Muñoz,Metropolitana,calzado,45850.0,6990.0,En tránsito
+ORD-10117,2026-08-02,2026-08-08,Francisca González,Metropolitana,Calzado,$324.740,3990.0,Entregado
+ORD-10118,2026-07-28,2026-08-04,Joaquín Hernández,O'Higgins,Deportes,136280.0,4990.0,Entregado
+ORD-10119,2026-08-15,2026-08-24,Isidora Torres,Biobío,Calzado,38150.0,4990.0,Entregado
+ORD-10119,2026-07-05,2026-07-08,FRANCISCA SILVA,Metropolitana,Belleza,376040.0,3990.0,Entregado
+ORD-10121,2026-07-09,,Diego Hernández,Coquimbo,hogar,76920.0,0.0,En tránsito
+ORD-10122,2026-09-23,2026-09-24,Lucas Morales, Metropolitana ,Calzado,131250.0,6990.0,Entregado
+ORD-10123,2026-07-26,2026-07-28,Francisca Martínez,Metropolitana,Deportes,,3990.0,Entregado
+ORD-10124,2026-06-08,2026-06-09,  camila contreras  ,Araucanía,Belleza,194000.0,6990.0,Entregado
+ORD-10125,2026-06-10,,Lucas Silva,Metropolitana,Vestuario,340910.0,3990.0,En tránsito
+ORD-10126,2026-08-29,2026-08-30,Camila Rojas,Metropolitana,hogar,133100.0,2990.0,Entregado
+ORD-10127,2026-06-20,,Joaquín Torres,Maule,Belleza,313130.0,0.0,Pendiente
+ORD-10128,26/09/2026,,Francisca Rodríguez,Metropolitana,Calzado,146400.0,6990.0,Pendiente
+ORD-10129,2026-07-14,2026-07-17,Sebastián Contreras,Metropolitana,Calzado,71770.0,0.0,Entregado
+ORD-10130,2026-09-06,2026-09-07,Nicolás Contreras,Coquimbo,Calzado,23450.0,3990.0,Entregado
+ORD-10131,2026-07-09,,Benjamín Díaz,Metropolitana,belleza,99570.0,0.0,En tránsito
+ORD-10132,2026-09-04,,Benjamín González,Metropolitana,Hogar,229770.0,0.0,Cancelado
+ORD-10133,06/09/2026,2026-09-04,Matías Sepúlveda,Biobío,Vestuario,328880.0,4990.0,Entregado
+ORD-10134,2026-08-15,2026-08-22,Lucas Díaz,Maule,Calzado,235780.0,4990.0, entregado 
+ORD-10135,2026-06-18,2026-06-20,JAVIERA MORALES,Araucanía,Belleza,60020.0,4990.0,Entregado
+ORD-10136,2026-07-23,,Lucas Díaz,Metropolitana,Calzado,379910.0,4990.0,Pendiente
+ORD-10137,2026-07-21,2026-07-28,  matías pérez  ,Metropolitana,Electrónica,440110.0,3990.0, entregado 
+ORD-10138,2026-07-14,,Benjamín Rojas,Metropolitana,hogar,196290.0,6990.0,Pendiente
+ORD-10139,2026-09-10,,Diego López,Metropolitana,Vestuario,428010.0,4990.0,Cancelado
+ORD-10140,2026-07-03,,TOMÁS SEPÚLVEDA,Metropolitana,Vestuario,$334.370,2990.0,
+ORD-10141,2026-08-26,2026-09-06,Sebastián Contreras,Araucanía,Electrónica,347500.0,4990.0,Entregado
+ORD-10142,2026-08-09,,Diego Soto,Metropolitana,calzado,22930.0,3990.0,Pendiente
+ORD-10143,2026-07-27,2026-08-01,  lucas sepúlveda  ,Metropolitana,Electrónica,81380.0,0.0,Entregado
+ORD-10144,2026-08-02,,  benjamín hernández  ,Los Lagos,Calzado,385770.0,4990.0,En tránsito
+ORD-10145,2026-07-16,2026-07-19,Isidora Contreras,Metropolitana,Calzado,162850.0,3990.0, entregado 
+ORD-10146,2026-07-25,2026-07-29,  isidora pérez  ,Metropolitana,Belleza,146630.0,0.0,Entregado
+ORD-10147,2026-06-03,2026-06-12,Benjamín Sepúlveda,O'Higgins,Deportes,126570.0,4990.0,Entregado
+ORD-10148,2026-07-12,,Constanza Martínez,O'Higgins,Belleza,157160.0,6990.0, pendiente 
+ORD-10149,2026-07-26,2026-08-04,Matías Fuentes,Metropolitana,Electrónica,125930.0,6990.0,Entregado
+ORD-10150,2026-06-12,2026-06-22,,Biobío,Deportes,218590.0,3990.0,Entregado
+ORD-10151,2026-07-09,2026-07-19,Camila Martínez,Maule,Belleza,305150.0,6990.0,Entregado
+ORD-10152,2026-08-13,2026-08-18,Javiera Martínez,Metropolitana,Calzado,243920.0,6990.0,Entregado
+ORD-10153,2026-06-08,2026-06-19,Lucas Rojas,Biobío,Belleza,381260.0,2990.0, entregado 
+ORD-10154,2026-07-05,2026-07-12,Sebastián Soto,Valparaiso,Hogar,,3990.0,Entregado
+ORD-10155,2026-08-11,2026-08-16,Constanza Muñoz,Metropolitana,Hogar,122950.0,0.0,Entregado
+ORD-10156,2026-08-02,2026-08-07,Constanza González,Metropolitana,Electrónica,406150.0,0.0,Entregado
+ORD-10157,2026-09-16,2026-09-18,Martina Rodríguez,Valparaíso,Hogar,374580.0,0.0, entregado 
+ORD-10158,2026-06-16,2026-06-28,Matías Contreras,Biobío,Electrónica,421550.0,3990.0,Entregado
+ORD-10159,2026-07-03,2026-07-05,  lucas díaz  ,Araucanía,hogar,195880.0,2990.0,Entregado
+ORD-10160,2026-08-31,2026-09-01,DIEGO SOTO,Biobío,calzado,301040.0,2990.0,Entregado
+ORD-10161,2026-07-20,2026-07-24,Diego Díaz,Metropolitana,Calzado,$244.890,4990.0,Devuelto
+ORD-10162,2026-09-26,2026-09-30,Lucas Sepúlveda,Maule,Calzado,79650.0,4990.0,Entregado
+ORD-10163,2026-07-06,,Lucas Silva,Araucanía,Belleza,191110.0,0.0,Pendiente
+ORD-10164,2026-08-29,2026-09-07,Sofía Rojas, Metropolitana ,Hogar,,0.0,Entregado
+ORD-10165,2026-06-24,,Isidora González,Metropolitana,Hogar,286070.0,6990.0, en tránsito 
+ORD-10166,2026-09-07,,Lucas Pérez,Metropolitana,Electrónica,358550.0,3990.0,En tránsito
+ORD-10167,2026-08-15,,Constanza Hernández,Biobío,Belleza,89200.0,,En tránsito
+ORD-10168,2026-06-03,2026-06-11,Diego López,metropolitana,Hogar,318250.0,3990.0,Entregado
+ORD-10169,2026-07-18,2026-07-26,Lucas López,Biobío,Deportes,226910.0,3990.0, entregado 
+ORD-10170,2026-08-03,2026-08-08,Sofía Torres,Metropolitana,belleza,$92.500,3990.0,Entregado
+ORD-10171,2026-07-28,2026-07-29,Francisca Díaz,Valparaíso,Deportes,393310.0,4990.0,Entregado
+ORD-10172,2026-09-03,2026-09-07,Javiera González,Maule,Calzado,165240.0,,Entregado
+ORD-10173,2026-08-04,2026-08-13,Sofía Rojas,Región Metropolitana,Vestuario,88090.0,4990.0,Entregado
+ORD-10174,2026-07-11,2026-07-14,Constanza Rojas,Maule,Electrónica,438260.0,3990.0,Entregado
+ORD-10175,2026-09-06,2026-09-18,Constanza Morales,Metropolitana,vestuario,345780.0,4990.0,Entregado
+ORD-10176,20/06/2026,2026-06-28,Matías Rojas,Metropolitana,Vestuario,447880.0,6990.0,Entregado
+ORD-10177,03/08/2026,,DIEGO ROJAS,Valparaíso,deportes,98840.0,3990.0, en tránsito 
+ORD-10178,2026-08-24,2026-09-03,Sebastián Hernández,Los Lagos,Hogar,414900.0,,Entregado
+ORD-10179,2026-08-27,2026-08-29,,Biobío,Electrónica,76810.0,4990.0,Entregado
+ORD-10180,2026-07-05,2026-07-13,Matías Sepúlveda,Valparaíso,Calzado,331610.0,2990.0,Entregado
+ORD-10181,2026-09-11,2026-09-21,TOMÁS SOTO,Metropolitana,Hogar,184890.0,, entregado 
+ORD-10182,2026-06-27,,Diego Torres,RM,Belleza,297440.0,3990.0,En tránsito
+ORD-10183,2026-08-17,2026-08-25,ISIDORA HERNÁNDEZ,Coquimbo,Calzado,180140.0,4990.0,Entregado
+ORD-10184,2026-08-18,2026-08-26,  benjamín soto  ,Biobío,Belleza,294590.0,6990.0, entregado 
+ORD-10185,2026-07-30,,Benjamín Fuentes,Metropolitana,Electrónica,65350.0,3990.0,Cancelado
+ORD-10186,10/08/2026,2026-08-12,  constanza torres  ,Metropolitana,Deportes,326650.0,, entregado 
+ORD-10187,2026-09-03,2026-09-05,Joaquín Sepúlveda,Región Metropolitana,electrónica,319630.0,4990.0,Entregado
+ORD-10188,2026-07-04,,  constanza martínez  ,RM,calzado,43490.0,4990.0,Cancelado
+ORD-10189,2026-06-01,2026-06-08,Matías Torres,Valparaíso,Vestuario,434920.0,6990.0,Entregado
+ORD-10190,2026-08-26,2026-08-24,Diego Rodríguez,Maule,,,2990.0,Entregado
+ORD-10191,2026-06-27,2026-07-06,Sofía Díaz,Metropolitana,,$141.700,2990.0,Entregado
+ORD-10192,2026-09-03,2026-09-15,Javiera Muñoz,Metropolitana,Belleza,115990.0,,Devuelto
+ORD-10193,2026-08-20,2026-08-30,Benjamín Morales,Región Metropolitana,calzado,253440.0,6990.0,Entregado
+ORD-10194,2026-09-28,,Joaquín Martínez,Metropolitana,Vestuario,$241.980,4990.0,Pendiente
+ORD-10195,2026-06-15,,Lucas Sepúlveda,Metropolitana,Belleza,18170.0,2990.0,Cancelado
+ORD-10196,2026-08-15,2026-08-26,Valentina Pérez,VALPARAISO,Deportes,398480.0,3990.0,Entregado
+ORD-10197,2026-09-11,2026-09-13,  constanza rodríguez  ,Metropolitana,Electrónica,65920.0,4990.0,Entregado
+ORD-10198,2026-08-03,,Isidora Díaz,Metropolitana,Hogar,397480.0,,
+ORD-10199,2026-06-09,2026-06-17,  constanza rodríguez  ,Metropolitana,Calzado,159080.0,3990.0,Entregado
+ORD-10200,2026-09-18,2026-09-26,Camila Morales,Metropolitana,Vestuario,433530.0,6990.0,Entregado
+ORD-10201,2026-06-14,2026-06-18,Javiera Sepúlveda,Valparaíso,Belleza,78240.0,0.0, entregado 
+ORD-10202,2026-07-17,2026-07-24,Matías Sepúlveda,Biobío,Electrónica,11900.0,2990.0,Entregado
+ORD-10203,2026-07-18,2026-07-27,Sofía López,Valparaíso,electrónica,109620.0,4990.0,Entregado
+ORD-10204,2026-08-06,2026-08-07,Tomás Pérez,Valparaíso,Deportes,237150.0,2990.0, entregado 
+ORD-10205,2026-07-21,2026-07-22,  tomás martínez  ,Metropolitana,Vestuario,441200.0,4990.0,Entregado
+ORD-10206,2026-08-27,,Javiera Hernández,Maule,Belleza,160770.0,2990.0,Pendiente
+ORD-10207,2026-07-28,,  joaquín rodríguez  , Metropolitana ,Belleza,203980.0,2990.0,Cancelado
+ORD-10208,11/06/2026,2026-06-14,  sebastián hernández  ,Metropolitana,Hogar,247480.0,3990.0,Entregado
+ORD-10209,21/06/2026,,Camila Muñoz,Biobío,hogar,376010.0,0.0,Cancelado
+ORD-10210,2026-07-04,2026-07-06,Martina Rojas,Biobío,Calzado,,3990.0, entregado 
+ORD-10211,2026-09-12,2026-09-23,Diego Morales,Metropolitana,Calzado,271630.0,6990.0,Entregado
+ORD-10212,2026-08-31,,Isidora Pérez,Maule,Vestuario,93910.0,4990.0, en tránsito 
+ORD-10213,11/06/2026,2026-06-13,  sebastián gonzález  ,Metropolitana,Hogar,241070.0,3990.0, entregado 
+ORD-10214,2026-08-21,2026-08-28,  diego morales  ,Metropolitana,Vestuario,72650.0,6990.0,Entregado
+ORD-10215,2026-06-16,2026-06-25,Sofía Fuentes,Los Lagos,hogar,428750.0,6990.0, entregado 
+ORD-10216,2026-08-06,2026-08-14,Joaquín Díaz,Metropolitana,Hogar,72000.0,3990.0,Entregado
+ORD-10217,2026-06-28,,BENJAMÍN HERNÁNDEZ,Los Lagos,Calzado,38790.0,4990.0, en tránsito 
+ORD-10218,2026-09-09,,Constanza Fuentes,Metropolitana,Hogar,70080.0,2990.0,Pendiente
+ORD-10219,12/07/2026,2026-07-19,Valentina Rojas,Metropolitana,Vestuario,29200.0,0.0,Entregado
+ORD-10220,30/08/2026,2026-09-10,Francisca López,Araucanía,Vestuario,255670.0,0.0,Entregado
+ORD-10221,2026-08-06,2026-08-15,Tomás Díaz,Metropolitana,Belleza,17360.0,6990.0,Entregado
+ORD-10222,2026-09-12,2026-09-13,Martina Fuentes,Valparaíso,vestuario,,6990.0,Entregado
+ORD-10223,03/07/2026,2026-07-08,JAVIERA LÓPEZ,Valparaíso,Deportes,121690.0,2990.0,Devuelto
+ORD-10224,2026-07-12,,Isidora Rodríguez,Biobío,Vestuario,71820.0,0.0,En tránsito
+ORD-10225,2026-07-01,2026-07-08,  valentina rojas  ,Metropolitana,Belleza,$127.750,0.0,Entregado
+ORD-10226,2026-06-30,2026-07-02,Joaquín Pérez,Metropolitana,Hogar,253620.0,0.0,Entregado
+ORD-10227,2026-08-04,2026-08-19,Francisca Díaz,Metropolitana,Belleza,117110.0,,Devuelto
+ORD-10228,2026-07-30,2026-07-31,Tomás Muñoz,Coquimbo,Electrónica,221640.0,3990.0,Entregado
+ORD-10229,2026-06-28,2026-07-08,Martina Pérez,O'Higgins,belleza,48560.0,3990.0, entregado 
+ORD-10230,2026-06-27,2026-07-05,Joaquín Díaz,Metropolitana,Deportes,289110.0,3990.0,Devuelto
+ORD-10231,2026-07-29,2026-07-30,  camila martínez  ,Metropolitana,Electrónica,,2990.0,Entregado
+ORD-10232,2026-09-23,2026-10-04,Benjamín Morales,Metropolitana,Calzado,246540.0,0.0,Entregado
+ORD-10233,2026-09-13,2026-09-25,  constanza rojas  ,Metropolitana,Vestuario,$64.010,0.0,Entregado
+ORD-10234,2026-08-27,2026-09-01,Camila Rojas, Metropolitana ,Calzado,$106.520,4990.0, entregado 
+ORD-10235,2026-08-30,2026-09-01,Francisca Soto,Valparaíso,Deportes,259970.0,6990.0,Entregado
+ORD-10236,2026-08-17,2026-08-22,Valentina Muñoz,Valparaíso,Vestuario,386260.0,0.0, entregado 
+ORD-10237,2026-08-28,2026-08-29,Valentina Martínez,Metropolitana,Calzado,291660.0,4990.0,Entregado
+ORD-10238,2026-07-23,,Tomás Martínez,metropolitana,Hogar,343730.0,4990.0,En tránsito
+ORD-10239,11/07/2026,2026-07-12,Sebastián Sepúlveda,Araucanía,Calzado,108490.0,2990.0, entregado 
+ORD-10240,10/07/2026,2026-07-11,Benjamín Muñoz,Metropolitana,Belleza,285190.0,2990.0, entregado 
+ORD-10241,15/09/2026,2026-09-25,Martina Sepúlveda,Biobío,Electrónica,345970.0,0.0,Entregado
+ORD-10242,2026-07-19,,  benjamín morales  ,Metropolitana,Electrónica,414330.0,0.0, pendiente 
+ORD-10243,2026-06-08,2026-06-15,  tomás soto  ,Metropolitana,Belleza,-273410.0,4990.0,Entregado
+ORD-10244,2026-07-25,2026-07-26,  diego rodríguez  ,Los Lagos,Vestuario,153730.0,0.0,Entregado
+ORD-10245,2026-09-16,2026-09-23,  matías fuentes  ,Región Metropolitana,electrónica,$282.790,2990.0,Entregado
+ORD-10246,2026-07-26,2026-08-04,Francisca Fuentes,Metropolitana,Electrónica,74000.0,0.0,Entregado
+ORD-10247,2026-08-24,2026-08-25,  sebastián lópez  ,Metropolitana,Vestuario,95170.0,3990.0,Entregado
+ORD-10248,2026-07-31,2026-08-12,  javiera rodríguez  ,Valparaíso,Calzado,258640.0,0.0,Devuelto
+ORD-10249,2026-09-10,2026-09-22,Diego Fuentes,Metropolitana,Deportes,284140.0,3990.0,Entregado
+ORD-10250,2026-07-19,2026-07-21,Benjamín Morales,Araucanía,Electrónica,253610.0,3990.0,Entregado
+ORD-10251,2026-06-04,2026-06-07,Sebastián Contreras,metropolitana,Hogar,253530.0,,Entregado
+ORD-10252,2026-08-26,2026-08-30,  sofía silva  ,Metropolitana,Vestuario,114900.0,6990.0,Entregado
+ORD-10253,2026-09-21,2026-09-25,Nicolás Pérez,Metropolitana,calzado,175780.0,2990.0,Entregado
+ORD-10254,2026-09-06,2026-09-12,Lucas Hernández,Biobío,Deportes,286590.0,6990.0,Entregado
+ORD-10255,2026-06-27,,FRANCISCA MORALES,Valparaíso,Belleza,82830.0,3990.0,En tránsito
+ORD-10256,2026-07-30,,Benjamín Martínez,Araucanía,Hogar,430490.0,6990.0,En tránsito
+ORD-10257,2026-06-27,2026-07-02,  javiera hernández  , Metropolitana ,Electrónica,175290.0,0.0,Entregado
+ORD-10258,2026-06-11,2026-06-20,Benjamín Rojas,Araucanía,Vestuario,196910.0,3990.0,Entregado
+ORD-10259,2026-06-04,2026-06-06,Constanza Hernández,Metropolitana,Deportes,230270.0,2990.0,Entregado
+ORD-10260,2026-06-10,2026-06-15,Matías Hernández,Araucanía,Belleza,368660.0,2990.0,Entregado
+ORD-10261,2026-09-05,2026-09-10,Lucas Pérez,Metropolitana,electrónica,354360.0,0.0,Entregado
+ORD-10262,2026-08-05,2026-08-19,Francisca Rojas,Metropolitana,Hogar,339370.0,4990.0,Devuelto
+ORD-10263,2026-07-30,2026-08-11,Javiera Hernández,Metropolitana,calzado,202450.0,2990.0,Entregado
+ORD-10264,03/09/2026,,Benjamín López,Valparaíso,Hogar,193840.0,6990.0,Pendiente
+ORD-10265,15/08/2026,,Francisca Rojas,Metropolitana,Calzado,429110.0,6990.0,En tránsito
+ORD-10266,2026-07-21,2026-07-25,Isidora Pérez,O'Higgins,Belleza,154010.0,2990.0,Entregado
+ORD-10267,2026-08-10,,Joaquín Sepúlveda,Metropolitana,Electrónica,96750.0,3990.0,
+ORD-10268,2026-06-09,2026-06-16,Valentina Sepúlveda,Metropolitana,Deportes,445410.0,4990.0, entregado 
+ORD-10269,2026-09-19,,Sofía Rojas,Biobío,Deportes,302170.0,2990.0,Pendiente
+ORD-10270,2026-08-27,2026-09-03,Joaquín Sepúlveda,Biobío,Hogar,117850.0,4990.0,Entregado
+ORD-10271,03/09/2026,2026-09-15,Lucas Contreras,Valparaíso,Hogar,181460.0,2990.0,Entregado
+ORD-10272,2026-09-02,2026-09-04,Sebastián Muñoz,VALPARAISO,Deportes,426050.0,6990.0,Entregado
+ORD-10273,26/09/2026,,Constanza Pérez,metropolitana,Deportes,190370.0,0.0,En tránsito
+ORD-10274,2026-09-08,2026-09-16,  nicolás hernández  ,Biobío,Hogar,290740.0,4990.0,Entregado
+ORD-10275,21/07/2026,2026-08-01,Diego Hernández,Araucanía,Belleza,222770.0,4990.0,Entregado
+ORD-10276,2026-09-14,2026-09-17,Diego Silva,Araucanía,Electrónica,244780.0,3990.0,Entregado
+ORD-10277,2026-07-16,,Martina Rodríguez,Los Lagos,calzado,203940.0,0.0,En tránsito
+ORD-10278,2026-07-10,2026-07-14,Benjamín López,Maule,Calzado,174210.0,0.0, entregado 
+ORD-10279,2026-06-25,2026-07-06,MARTINA PÉREZ,Metropolitana,belleza,82660.0,6990.0,Entregado
+ORD-10280,2026-08-19,2026-08-23,Joaquín Díaz,Valparaíso,Electrónica,,,Entregado
+ORD-10281,2026-06-28,2026-07-04,Valentina Soto,Valparaíso,Belleza,399490.0,0.0,Entregado
+ORD-10282,2026-09-10,,Tomás Rojas,Metropolitana,Electrónica,273540.0,2990.0,Pendiente
+ORD-10283,2026-08-21,,Joaquín González,Metropolitana,Deportes,,6990.0,En tránsito
+ORD-10284,2026-08-05,2026-08-09,CONSTANZA ROJAS,Maule,Calzado,343690.0,2990.0,Entregado
+ORD-10285,2026-06-08,2026-06-19,  francisca pérez  ,Metropolitana,Belleza,416220.0,3990.0,Entregado
+ORD-10286,2026-07-11,,Lucas Pérez,Valparaíso,Vestuario,294780.0,3990.0,En tránsito
+ORD-10287,2026-06-27,,Valentina González,Los Lagos,Electrónica,312120.0,3990.0,Cancelado
+ORD-10288,20/08/2026,,Tomás Díaz,Los Lagos,,288750.0,6990.0, pendiente 
+ORD-10289,2026-09-10,2026-09-15,Diego Fuentes,Metropolitana,Belleza,96110.0,6990.0, entregado 
+ORD-10290,2026-08-21,,Lucas González,Metropolitana,Electrónica,167570.0,6990.0,Pendiente
+ORD-10291,2026-09-06,2026-09-15,  benjamín fuentes  ,O'Higgins,Hogar,385630.0,2990.0,Devuelto
+ORD-10292,2026-06-23,2026-07-03,TOMÁS SOTO,Metropolitana,vestuario,155950.0,,Entregado
+ORD-10293,2026-08-04,2026-08-11,Valentina González,Metropolitana,Calzado,173550.0,4990.0,Entregado
+ORD-10294,2026-09-26,,Joaquín Martínez,Araucanía,Deportes,431080.0,4990.0,Cancelado
+ORD-10295,2026-07-18,2026-07-22,Diego Díaz,Metropolitana,Belleza,$415.370,2990.0,Entregado
+ORD-10296,2026-07-29,2026-08-09,Matías Rodríguez,Araucanía,Calzado,14430.0,4990.0,Entregado
+ORD-10297,24/09/2026,,Javiera Torres,Metropolitana,Vestuario,197240.0,4990.0,Cancelado
+ORD-10298,2026-09-02,,JAVIERA MUÑOZ,Araucanía,Vestuario,289550.0,2990.0,Pendiente
+ORD-10299,2026-07-21,2026-07-23,Matías Morales,Biobío,Deportes,316070.0,2990.0,Entregado
+ORD-10300,2026-06-24,2026-07-02,  lucas martínez  ,O'Higgins,belleza,102740.0,2990.0,Entregado
+ORD-10301,2026-09-24,2026-10-05,BENJAMÍN RODRÍGUEZ,Metropolitana,Belleza,138260.0,6990.0,Entregado
+ORD-10302,2026-08-02,2026-08-03,Isidora Díaz,O'Higgins,Calzado,357040.0,4990.0, entregado 
+ORD-10303,2026-09-06,2026-09-12,Javiera López,Valparaíso,Calzado,401560.0,4990.0,Entregado
+ORD-10304,2026-06-08,,Joaquín Martínez,Metropolitana,Electrónica,392910.0,0.0,
+ORD-10305,2026-09-20,2026-09-30,NICOLÁS SEPÚLVEDA,Coquimbo,Electrónica,281690.0,,Devuelto
+ORD-10306,2026-08-21,,Benjamín Hernández,Valparaíso,Deportes,29170.0,6990.0, pendiente 
+ORD-10307,2026-09-03,2026-09-11,  joaquín hernández  ,Valparaiso,Electrónica,386980.0,2990.0,Entregado
+ORD-10308,2026-09-20,2026-09-23,Joaquín Fuentes,Biobío,calzado,47400.0,4990.0,Entregado
+ORD-10309,2026-07-28,2026-07-31,Valentina López,Metropolitana,Deportes,299940.0,2990.0,Entregado
+ORD-10310,2026-07-12,,Camila Pérez,Metropolitana,Belleza,219040.0,6990.0,En tránsito
+ORD-10311,02/08/2026,,Sofía Rojas,Araucanía,Hogar,346950.0,4990.0,En tránsito
+ORD-10312,2026-09-09,,Matías Pérez,Región Metropolitana,Hogar,60010.0,2990.0,Pendiente
+ORD-10313,2026-06-15,2026-06-13,Valentina Pérez,metropolitana,Calzado,36280.0,3990.0,Entregado
+ORD-10314,2026-09-11,,  diego díaz  ,Maule,Calzado,106960.0,2990.0,En tránsito
+ORD-10315,2026-07-08,2026-07-11,Constanza Díaz,Araucanía,Calzado,383460.0,6990.0,Entregado
+ORD-10316,2026-06-16,,Benjamín Torres,Coquimbo,Hogar,$104.120,3990.0,Pendiente
+ORD-10317,2026-08-31,,Nicolás Hernández,Los Lagos,Electrónica,32170.0,4990.0,En tránsito
+ORD-10318,2026-09-13,,Francisca Rodríguez,Metropolitana,Vestuario,157790.0,4990.0,Pendiente
+ORD-10319,2026-09-02,,Benjamín Soto,Región Metropolitana,Hogar,182650.0,0.0,En tránsito
+ORD-10320,2026-08-30,2026-09-07,  joaquín silva  ,Metropolitana,Electrónica,72860.0,0.0,Entregado
+ORD-10321,2026-09-18,2026-09-25,SOFÍA SILVA,Maule,Belleza,83180.0,0.0,Entregado
+ORD-10322,2026-08-05,2026-08-12,Joaquín Hernández,Metropolitana,Vestuario,61380.0,2990.0,Entregado
+ORD-10323,2026-07-19,2026-07-29,Valentina Rojas,Valparaíso,Hogar,390420.0,,Devuelto
+ORD-10324,15/06/2026,2026-06-16,TOMÁS FUENTES,Biobío,Deportes,444420.0,6990.0,Entregado
+ORD-10325,2026-08-01,,Valentina Hernández,Valparaíso,Deportes,152420.0,4990.0,En tránsito
+ORD-10326,2026-06-03,,Nicolás Pérez,Biobío,Calzado,37180.0,0.0,Pendiente
+ORD-10327,2026-06-27,,Sebastián Pérez,Metropolitana,Calzado,88340.0,2990.0,Cancelado
+ORD-10328,2026-08-23,2026-08-25,Diego Rodríguez,Araucanía,Calzado,169320.0,0.0,Entregado
+ORD-10329,2026-06-06,2026-06-14,Valentina Martínez,Metropolitana,Deportes,225280.0,6990.0,Entregado
+ORD-10330,2026-06-27,2026-06-30,Benjamín Rojas,RM,Vestuario,376190.0,3990.0, entregado 
+ORD-10331,2026-09-02,2026-09-05,Sofía Soto,O'Higgins,Deportes,45710.0,6990.0,Entregado
+ORD-10332,2026-08-20,2026-08-28,  matías gonzález  ,O'Higgins,deportes,257560.0,2990.0,Devuelto
+ORD-10333,2026-09-09,2026-09-11,Isidora Contreras,Metropolitana,Belleza,310630.0,3990.0,Entregado
+ORD-10334,2026-06-19,2026-06-23,Lucas Sepúlveda,Los Lagos,Belleza,55300.0,3990.0, entregado 
+ORD-10335,2026-09-12,2026-09-21,Constanza Sepúlveda,Metropolitana,,52680.0,2990.0,Entregado
+ORD-10336,2026-09-03,,Tomás Torres,O'Higgins,Vestuario,186560.0,2990.0,En tránsito
+ORD-10337,2026-06-19,,Francisca Rodríguez,Los Lagos,Belleza,438750.0,4990.0, en tránsito 
+ORD-10338,2026-07-16,2026-07-28,Sebastián Morales,Metropolitana,Calzado,367980.0,4990.0,Entregado
+ORD-10339,17/09/2026,2026-09-20,  sofía díaz  ,O'Higgins,Vestuario,46290.0,0.0,Entregado
+ORD-10340,2026-07-25,,Tomás Silva,Metropolitana,Hogar,311140.0,0.0, cancelado 
+ORD-10341,2026-09-25,2026-10-01,Francisca Contreras,Metropolitana,Hogar,334890.0,6990.0,Entregado
+ORD-10342,2026-06-06,2026-06-17,LUCAS SEPÚLVEDA,Metropolitana,Belleza,407570.0,3990.0,Devuelto
+ORD-10343,2026-07-25,2026-08-05,Javiera Silva,Metropolitana,Hogar,246750.0,3990.0,Entregado
+ORD-10344,2026-06-01,2026-06-12,LUCAS TORRES,Biobío,Calzado,403000.0,0.0,Entregado
+ORD-10345,2026-08-18,2026-08-30,Sofía Martínez,Coquimbo,Electrónica,165340.0,6990.0, entregado 
+ORD-10346,2026-07-23,2026-07-27,Constanza Muñoz,Metropolitana,,174060.0,3990.0,Entregado
+ORD-10347,2026-07-27,2026-07-28,Valentina López,Región Metropolitana,Calzado,$392.900,4990.0, entregado 
+ORD-10348,2026-07-13,2026-07-24,Sebastián Pérez,Maule,Vestuario,61380.0,2990.0,Entregado
+ORD-10349,2026-09-06,2026-09-13,Francisca Rodríguez,Maule,Calzado,431340.0,0.0,Entregado
+ORD-10349,01/07/2026,,  matías muñoz  ,Metropolitana,Calzado,12530.0,4990.0,Pendiente
+ORD-10351,2026-06-20,2026-06-25,  lucas hernández  , Metropolitana ,calzado,118080.0,0.0,Entregado
+ORD-10352,2026-08-04,2026-08-07,Sofía Morales,Valparaíso,Deportes,67330.0,,Entregado
+ORD-10353,26/06/2026,2026-07-07,Benjamín Morales,VALPARAISO,Calzado,106800.0,0.0,Entregado
+ORD-10354,2026-07-05,,Benjamín Torres,Maule,Hogar,-403740.0,3990.0,Cancelado
+ORD-10355,2026-07-31,2026-08-08,Tomás Sepúlveda,Valparaíso,Calzado,-143210.0,6990.0,Entregado
+ORD-10356,2026-06-17,,Camila Torres,Metropolitana,Electrónica,242220.0,4990.0,En tránsito
+ORD-10357,2026-06-14,,Diego Muñoz,Araucanía,Electrónica,411270.0,0.0, en tránsito 
+ORD-10358,2026-08-09,2026-08-18,Constanza Pérez,Región Metropolitana,Vestuario,28310.0,6990.0,Entregado
+ORD-10359,2026-09-23,2026-10-01,  sebastián contreras  ,Los Lagos,Vestuario,419720.0,2990.0, entregado 
+ORD-10360,12/08/2026,2026-08-22,Sofía Fuentes, Metropolitana ,Vestuario,310950.0,6990.0,Devuelto
+ORD-10361,2026-09-08,,Lucas Muñoz,RM,Deportes,-261200.0,6990.0,
+ORD-10362,2026-08-30,2026-09-04,Lucas López,Metropolitana,Deportes,$84.450,2990.0,Entregado
+ORD-10363,2026-07-06,2026-07-10,Francisca Rodríguez,Coquimbo,Hogar,101590.0,3990.0,Entregado
+ORD-10364,2026-08-30,2026-09-04,Isidora Torres,Biobío,Electrónica,34240.0,3990.0, entregado 
+ORD-10365,2026-06-03,2026-06-07,Diego Sepúlveda,Metropolitana,Calzado,327660.0,6990.0,Devuelto
+ORD-10366,2026-09-13,2026-09-20,Lucas Morales,Biobío,Hogar,111180.0,0.0,Entregado
+ORD-10367,2026-07-29,,  isidora sepúlveda  ,Región Metropolitana,Deportes,330700.0,2990.0,Pendiente
+ORD-10368,2026-08-27,2026-09-07,Constanza López,Región Metropolitana,deportes,53190.0,6990.0, entregado 
+ORD-10369,20/07/2026,,Benjamín Muñoz,Biobío,Belleza,28280.0,,Pendiente
+ORD-10370,2026-06-02,2026-06-14,Javiera Martínez, Metropolitana ,Deportes,70390.0,3990.0,Entregado
+ORD-10371,2026-06-20,2026-06-21,  isidora martínez  ,Valparaíso,calzado,54330.0,,Entregado
+ORD-10372,29/06/2026,2026-07-03,  diego silva  ,Metropolitana,hogar,310820.0,4990.0, entregado 
+ORD-10373,2026-06-15,2026-06-23,  diego silva  ,Metropolitana,Deportes,61180.0,6990.0,Devuelto
+ORD-10374,2026-07-25,2026-08-05,Lucas Díaz,Biobío,Belleza,284510.0,4990.0,Entregado
+ORD-10375,2026-09-28,,Nicolás Fuentes,Biobío,Calzado,389010.0,2990.0,Cancelado
+ORD-10376,2026-09-01,2026-09-10,Martina Sepúlveda,metropolitana,vestuario,432180.0,2990.0,Devuelto
+ORD-10377,2026-07-16,2026-07-27,Valentina Silva,Biobío,Belleza,362740.0,4990.0,Entregado
+ORD-10378,2026-08-03,,Nicolás Fuentes,Los Lagos,Calzado,195030.0,0.0,Pendiente
+ORD-10379,2026-06-01,,Constanza Torres,VALPARAISO,Vestuario,67910.0,2990.0,Pendiente
+ORD-10380,2026-06-19,2026-06-23,  benjamín muñoz  ,Valparaíso,Deportes,33630.0,4990.0,Entregado
+ORD-10381,2026-08-29,2026-08-31,Sebastián Morales,Metropolitana,Electrónica,270920.0,2990.0,Entregado
+ORD-10382,2026-08-12,2026-08-15,Lucas Pérez,Metropolitana,Belleza,317060.0,0.0,Entregado
+ORD-10383,20/06/2026,2026-06-18,Sebastián Morales,RM,Belleza,376210.0,3990.0,Entregado
+ORD-10384,2026-08-04,2026-08-06,Nicolás González,Metropolitana,Belleza,440270.0,2990.0,Entregado
+ORD-10385,2026-09-14,2026-09-22,Martina Soto,Metropolitana,electrónica,$296.840,3990.0,Entregado
+ORD-10386,2026-06-25,2026-07-01,  tomás morales  ,Metropolitana,Vestuario,133450.0,3990.0,Entregado
+ORD-10387,2026-06-26,2026-07-06,Nicolás Pérez,Biobío,Vestuario,444040.0,,Entregado
+ORD-10388,2026-07-16,2026-07-25,,Metropolitana,Deportes,329030.0,4990.0,Devuelto
+ORD-10389,04/08/2026,,Javiera Martínez,Valparaíso,Belleza,177510.0,2990.0,Pendiente
+ORD-10390,2026-06-11,2026-06-22,Camila Martínez,Valparaíso,Deportes,348050.0,6990.0,Entregado
+ORD-10391,2026-09-28,2026-10-08,Sebastián Hernández,Araucanía,Hogar,199020.0,2990.0, entregado 
+ORD-10392,17/08/2026,2026-08-18,Benjamín Díaz,Araucanía,Belleza,392870.0,0.0,Entregado
+ORD-10393,2026-07-29,,Diego Silva,Metropolitana,Hogar,169220.0,3990.0,Cancelado
+ORD-10394,2026-07-03,2026-07-13,Joaquín Fuentes,Coquimbo,Deportes,169280.0,2990.0,Entregado
+ORD-10395,2026-08-05,2026-08-16,Martina Silva,Valparaíso,Deportes,$207.490,0.0,Devuelto
+ORD-10396,2026-07-02,2026-07-09,  javiera rodríguez  ,valparaíso,Electrónica,185080.0,0.0,Entregado
+ORD-10397,2026-07-30,,Matías Contreras,Metropolitana,Belleza,331710.0,2990.0,Cancelado
+ORD-10398,2026-06-09,2026-06-19,Javiera Díaz,Valparaíso,Hogar,59410.0,2990.0,Devuelto
+ORD-10399,2026-07-11,2026-07-26,Javiera Muñoz,Los Lagos,belleza,$168.410,0.0,Devuelto
+ORD-10400,2026-08-27,2026-09-01,Matías Hernández,Metropolitana,hogar,140560.0,3990.0,Entregado
+ORD-10401,07/06/2026,,,Metropolitana,Vestuario,81550.0,2990.0,Cancelado
+ORD-10402,2026-07-26,,CAMILA CONTRERAS,Metropolitana,Calzado,354330.0,6990.0,
+ORD-10403,2026-08-25,,VALENTINA MUÑOZ,RM,Hogar,148580.0,3990.0,Cancelado
+ORD-10404,2026-08-26,2026-08-29,Matías Sepúlveda,Los Lagos,Hogar,290760.0,2990.0, entregado 
+ORD-10405,2026-08-09,2026-08-13,Tomás Rodríguez,Metropolitana,Belleza,,,Entregado
+ORD-10406,2026-09-23,,  constanza lópez  ,Biobío,Calzado,449580.0,4990.0, pendiente 
+ORD-10407,2026-09-06,,  sofía rodríguez  ,Araucanía,Vestuario,252760.0,4990.0,Cancelado
+ORD-10408,2026-08-29,,Constanza Pérez,Metropolitana,Electrónica,364420.0,4990.0,Cancelado
+ORD-10409,2026-09-04,,,O'Higgins,,265320.0,2990.0, cancelado 
+ORD-10410,2026-08-10,2026-08-18,,Metropolitana,Calzado,$370.800,3990.0,Entregado
+ORD-10411,2026-08-04,,Tomás López,Metropolitana,Vestuario,359650.0,,Pendiente
+ORD-10412,2026-06-04,2026-06-14,Isidora Contreras,Metropolitana,Belleza,84140.0,4990.0,Entregado
+ORD-10413,2026-08-22,2026-09-02,TOMÁS GONZÁLEZ,Coquimbo,Deportes,330090.0,2990.0,Entregado
+ORD-10414,2026-09-11,2026-09-22,JAVIERA MUÑOZ,Maule,Vestuario,378260.0,0.0,Entregado
+ORD-10415,2026-08-20,2026-08-22,  martina muñoz  ,Biobío,Calzado,20140.0,3990.0,Entregado
+ORD-10416,2026-08-23,2026-08-30,Diego Morales,Valparaíso,Calzado,299730.0,6990.0,Entregado
+ORD-10417,2026-06-15,2026-06-18,Diego Sepúlveda,RM,Belleza,226960.0,4990.0, entregado 
+ORD-10418,23/07/2026,2026-08-01,Tomás Sepúlveda,O'Higgins,Deportes,401360.0,, devuelto 
+ORD-10419,2026-06-23,2026-06-29,NICOLÁS FUENTES,VALPARAISO,Belleza,222400.0,3990.0,Entregado
+ORD-10420,2026-06-25,2026-06-29,Constanza Morales,Coquimbo,Calzado,59610.0,2990.0,Entregado
+ORD-10421,2026-08-01,2026-08-09,Nicolás Torres,Coquimbo,Vestuario,227640.0,2990.0,Entregado
+ORD-10422,2026-09-17,2026-09-27,Sofía Hernández,Coquimbo,Vestuario,359200.0,4990.0,Entregado
+ORD-10423,2026-07-05,2026-07-15,Sofía López,Metropolitana,hogar,404970.0,6990.0,Entregado
+ORD-10424,2026-07-23,,  javiera rodríguez  ,Valparaíso,Deportes,,2990.0,Pendiente
+ORD-10425,2026-07-25,2026-07-31,Martina Muñoz,Metropolitana,Calzado,,0.0, entregado 
+ORD-10426,2026-06-28,,Valentina Contreras,Biobío,hogar,179040.0,3990.0,En tránsito
+ORD-10427,2026-09-22,2026-10-03,Martina Torres,Biobío,Hogar,149140.0,4990.0,Entregado
+ORD-10428,2026-07-06,2026-07-13,Camila Contreras,Metropolitana,Hogar,,6990.0,Entregado
+ORD-10429,2026-09-25,2026-10-04,Lucas Silva,Coquimbo,,26240.0,4990.0,Entregado
+ORD-10430,2026-07-06,2026-07-14,Diego Morales,Biobío,Hogar,182450.0,0.0, entregado 
+ORD-10431,2026-09-29,,Joaquín Sepúlveda,Metropolitana,Deportes,55360.0,2990.0,
+ORD-10432,2026-09-01,2026-09-13,Sebastián Torres,Metropolitana,Electrónica,123510.0,0.0,Entregado
+ORD-10433,2026-08-28,,  francisca fuentes  ,Metropolitana,hogar,69750.0,6990.0,Pendiente
+ORD-10434,2026-09-23,2026-10-03,Sofía González,Metropolitana,Electrónica,225130.0,0.0, entregado 
+ORD-10435,2026-07-08,2026-07-19,Tomás Sepúlveda,Coquimbo,Vestuario,$99.790,0.0,Entregado
+ORD-10436,2026-07-30,2026-08-09,Diego Torres,Biobío,Electrónica,235640.0,2990.0, entregado 
+ORD-10437,2026-06-14,2026-06-24,Lucas Torres,Los Lagos,Deportes,352990.0,3990.0,Entregado
+ORD-10438,2026-08-13,2026-08-17,Sofía Torres,Metropolitana,Belleza,212230.0,3990.0,Entregado
+ORD-10439,2026-09-27,2026-10-04,MATÍAS MUÑOZ,Maule,Belleza,32430.0,4990.0,Entregado
+ORD-10440,2026-06-25,2026-07-02,Matías González,Maule,Hogar,30980.0,0.0,Entregado
+ORD-10441,01/07/2026,2026-07-13,Sofía González,Metropolitana,Vestuario,182260.0,4990.0,Entregado
+ORD-10442,2026-09-09,2026-09-10,  lucas torres  ,Biobío,belleza,230920.0,2990.0,Entregado
+ORD-10443,27/08/2026,2026-08-28,  tomás gonzález  ,Metropolitana,calzado,,3990.0,Entregado
+ORD-10444,2026-06-22,,Benjamín González,O'Higgins,Vestuario,266170.0,0.0,Pendiente
+ORD-10445,2026-07-08,2026-07-10,Nicolás Díaz,Metropolitana,Belleza,363510.0,6990.0,Entregado
+ORD-10446,2026-08-02,2026-08-08,Isidora Rodríguez,Valparaíso,,350560.0,0.0,Entregado
+ORD-10447,2026-08-06,2026-08-17,Constanza Hernández,Metropolitana,Vestuario,166520.0,4990.0,Entregado
+ORD-10448,04/09/2026,,  valentina muñoz  ,Metropolitana,hogar,129790.0,6990.0,Cancelado
+ORD-10449,2026-09-25,,Lucas Muñoz,Metropolitana,Belleza,447330.0,3990.0,Cancelado
+ORD-10450,2026-06-16,2026-06-21,Tomás Morales,Valparaíso,Vestuario,12670.0,6990.0,Entregado
+ORD-10451,2026-08-19,2026-08-24,Matías Silva,Metropolitana,deportes,$27.050,,Entregado
+ORD-10452,2026-07-16,2026-07-21,  lucas martínez  ,RM,belleza,230370.0,3990.0,Entregado
+ORD-10453,2026-09-02,2026-09-10,Isidora Muñoz,Valparaíso,Hogar,118680.0,0.0, entregado 
+ORD-10454,2026-09-26,2026-10-02,,Biobío,Hogar,70370.0,2990.0,Entregado
+ORD-10455,2026-06-11,,Sofía López,Metropolitana,Calzado,354040.0,3990.0,Cancelado
+ORD-10456,2026-08-27,2026-09-03,Constanza Morales,Valparaíso,Deportes,,4990.0,Entregado
+ORD-10457,2026-06-18,2026-06-21,  valentina rodríguez  ,Región Metropolitana,Deportes,405860.0,2990.0,Entregado
+ORD-10458,2026-06-01,,Valentina Morales,Valparaíso,Electrónica,46330.0,6990.0,En tránsito
+ORD-10459,2026-07-08,,Francisca González,Los Lagos,Vestuario,266810.0,6990.0,En tránsito
+ORD-10460,2026-09-03,2026-09-06,Diego Rodríguez,Valparaíso,Calzado,-146100.0,4990.0,Entregado
+ORD-10461,26/06/2026,2026-06-28,Constanza Rojas,Metropolitana,Belleza,,6990.0,Entregado
+ORD-10462,2026-06-08,2026-06-12,Valentina Rojas,Metropolitana,Calzado,250100.0,6990.0,Entregado
+ORD-10463,2026-06-19,2026-06-22,Sofía López,RM,Electrónica,317530.0,0.0,Entregado
+ORD-10464,2026-08-03,2026-08-11,,Metropolitana,Vestuario,,4990.0,Entregado
+ORD-10465,20/07/2026,2026-07-30,  joaquín martínez  ,Los Lagos,Belleza,409470.0,4990.0,Entregado
+ORD-10466,2026-06-21,,Tomás Hernández,Coquimbo,Electrónica,320440.0,3990.0,Pendiente
+ORD-10467,2026-08-12,,Valentina Rodríguez,Biobío,Calzado,345310.0,4990.0,En tránsito
+ORD-10468,2026-07-31,2026-08-11,Constanza González,Biobío,Belleza,66070.0,6990.0,Entregado
+ORD-10469,09/06/2026,,Diego Soto,Metropolitana,Hogar,55830.0,2990.0,Pendiente
+ORD-10470,2026-09-21,,  isidora torres  ,Metropolitana,Calzado,37380.0,0.0,Cancelado
+ORD-10471,2026-07-18,,Isidora Fuentes,Maule,Deportes,317140.0,2990.0,Pendiente
+ORD-10472,2026-08-02,2026-08-11,Diego Torres,Metropolitana,Calzado,93790.0,,Entregado
+ORD-10473,2026-06-18,2026-06-20,Benjamín González,Biobío,Hogar,309920.0,2990.0,Entregado
+ORD-10474,2026-08-13,2026-08-16,Francisca Hernández,Biobío,Electrónica,202540.0,2990.0,Entregado
+ORD-10475,09/07/2026,2026-07-10,Sofía Sepúlveda,Metropolitana,Calzado,423810.0,0.0, entregado 
+ORD-10476,2026-06-21,2026-07-01,Francisca Soto,Araucanía,Deportes,185050.0,4990.0,Entregado
+ORD-10477,2026-07-04,2026-07-05,Lucas Silva,Metropolitana,vestuario,250260.0,0.0,Entregado
+ORD-10478,2026-06-10,2026-06-11,Joaquín Díaz,Biobío,belleza,40200.0,6990.0,Entregado
+ORD-10479,2026-06-17,2026-06-28,Nicolás González,Metropolitana,Hogar,219610.0,, entregado 
+ORD-10480,2026-09-09,2026-09-21,JAVIERA SEPÚLVEDA,Metropolitana,Electrónica,221630.0,4990.0,Entregado
+ORD-10481,2026-06-15,,  tomás torres  ,Valparaíso,Vestuario,94390.0,,Cancelado
+ORD-10482,2026-07-23,,Isidora Pérez,Araucanía,Deportes,,2990.0,Cancelado
+ORD-10483,10/06/2026,2026-06-20,Lucas López,Región Metropolitana,Electrónica,116700.0,0.0,Entregado
+ORD-10484,2026-06-10,2026-06-16,Tomás Muñoz,Valparaíso,Electrónica,387710.0,6990.0,Entregado
+ORD-10485,2026-08-23,,Valentina Díaz,Metropolitana,Electrónica,55020.0,4990.0,Cancelado
+ORD-10486,2026-06-27,,Matías López,Valparaíso,electrónica,252850.0,0.0,Pendiente
+ORD-10487,2026-08-29,,  sebastián gonzález  ,Metropolitana,Deportes,377820.0,0.0,
+ORD-10488,2026-09-18,2026-09-19,Diego Hernández,Metropolitana,Hogar,176280.0,0.0,Entregado
+ORD-10489,2026-07-15,,Sofía Rodríguez,Los Lagos,Calzado,374220.0,0.0,Cancelado
+ORD-10490,2026-09-15,,Valentina Díaz,Biobío,Electrónica,340810.0,3990.0,Pendiente
+ORD-10491,2026-09-29,2026-10-04,Francisca Hernández,Metropolitana,Belleza,177140.0,0.0,Entregado
+ORD-10492,2026-08-27,2026-09-02,Sebastián Hernández, Metropolitana ,Electrónica,26020.0,,Entregado
+ORD-10493,2026-07-10,2026-07-18,  matías díaz  ,Biobío,Deportes,12900.0,6990.0,Entregado
+ORD-10494,2026-06-08,2026-06-10,Sebastián Soto,Biobío,Calzado,122770.0,2990.0,Entregado
+ORD-10495,2026-06-19,2026-06-22,Nicolás Morales,Maule,Vestuario,388510.0,0.0,Entregado
+ORD-10496,2026-07-04,2026-07-13,Constanza Soto,Biobío,Vestuario,273850.0,6990.0,Entregado
+ORD-10497,2026-06-27,2026-07-08,Martina Hernández,Los Lagos,Belleza,,6990.0,Entregado
+ORD-10498,2026-07-13,,Martina Martínez,Metropolitana,Calzado,138670.0,2990.0,Cancelado
+ORD-10499,04/06/2026,2026-06-16,Sebastián Soto,metropolitana,Deportes,265430.0,0.0,Entregado
