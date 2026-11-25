@@ -1,21 +1,46 @@
-# 🚚 Pipeline ETL y Análisis de Datos Logísticos en Python
+# Análisis de Logística, Ventas y Costos con Python y Power BI
 
-Proyecto de limpieza, transformación y análisis de datos logísticos desarrollado en **Python** con **Pandas** y **NumPy**. El objetivo es convertir un dataset crudo de 500 pedidos (`pedidos_logistica_raw.csv`) en un dataset limpio y estandarizado (`pedidos_logistica_limpios.csv`) listo para análisis comercial y operativo.
+Proyecto de análisis de datos de extremo a extremo sobre 500 pedidos logísticos, que abarca limpieza y transformación con Python (`pandas`, `numpy`), análisis exploratorio y un reporte multipágina en Power BI.
 
-## 🛠️ Problemas Detectados y Soluciones Aplicadas
-- **Limpieza Financiera:** Normalización de `monto_venta` eliminando símbolos `$` y separadores de miles sin alterar valores flotantes con `.0` ni perder nulos reales (`float64`).
-- **Reglas de Negocio y Anomalías:** Clasificación en `tipo_movimiento` (`Venta` vs. `Devolución / Ajuste`) y cálculo de `ingreso_total` (`0` en montos no positivos o devoluciones) para mantener trazabilidad contable.
-- **Normalización de Texto:** Estandarización de `cliente`, `categoria`, `region` y `estado_entrega` (eliminación de espacios, unificación de mayúsculas/minúsculas, mapeo de variantes como `rm` y `metropolitana` a `Región Metropolitana` y corrección de `Valparaíso`).
-- **Procesamiento de Fechas y KPIs:** Parseo de fechas mixtas (`YYYY-MM-DD` y `DD/MM/YYYY`) con `format="mixed"` y `dayfirst=True`, cálculo de `dias_entrega` y creación de `dias_entrega_limpio` excluyendo valores negativos (`< 0`).
+## Resumen de Métricas Clave
+- **Total de pedidos:** 500
+- **Ingreso total:** $102.537.860
+- **Tipos de movimiento:** 472 ventas y 28 devoluciones / ajustes
+- **Costo de envío total:** $1.732.360 ($1.613.600 en ventas y $118.760 en devoluciones / ajustes)[cite: 7]
 
-## 📁 Estructura del Repositorio
-- `01_etl_pedidos_logistica.ipynb`: Diagnóstico inicial, limpieza, reglas de negocio y exportación del CSV limpio.
-- `02_analisis_pedidos_logistica.ipynb`: Cálculo de ingresos, conteo de movimientos y agrupaciones por región y categoría.
-- `pedidos_logistica_raw.csv`: Dataset original sin procesar.
-- `pedidos_logistica_limpios.csv`: Dataset procesado y listo para análisis.
+## Estructura del Repositorio
+- `pedidos_logistica_raw.csv`: dataset original con inconsistencias de formato, nulos y fechas mixtas[cite: 8, 12, 13].
+- `pedidos_logistica_limpios.csv`: dataset procesado y estandarizado, listo para análisis y visualización[cite: 8, 12, 13].
+- `etl_pedidos_logistica.ipynb`: notebook de limpieza, normalización, cálculo de métricas base y exportación del CSV limpio[cite: 8, 12, 13].
+- `analisis_logistica.ipynb`: notebook de análisis exploratorio y agrupaciones por región, categoría y tipo de movimiento[cite: 8, 12, 13].
+- `capturas/01-resumen-ejecutivo.png`: vista de Resumen Ejecutivo[cite: 9, 14].
+- `capturas/02-logistica-entregas.png`: vista de Logística y Entregas[cite: 10, 14].
+- `capturas/03-finanzas-costos.png`: vista de Finanzas y Costos[cite: 11, 14].
+- `capturas/dashboard_logistica_ventas.pbix`: archivo del reporte en Power BI Desktop[cite: 14].
 
-## 💻 Tecnologías Utilizadas
-- Python 3
-- Pandas
-- NumPy
-- Jupyter Notebook / JupyterLab
+## Proceso ETL y Calidad de Datos (`etl_pedidos_logistica.ipynb`)
+- Revisión inicial de estructura, tipos de datos, valores nulos y registros duplicados.
+- Limpieza de `monto_venta` (eliminación de símbolos, separadores de miles y conversión numérica segura).
+- Normalización de categorías, regiones y estados de entrega preservando valores faltantes reales.
+- Cálculo de `ingreso_total` y clasificación por `tipo_movimiento` (`Venta` y `Devolución / Ajuste`).
+- Parseo de fechas en distintos formatos, cálculo de `dias_entrega` y separación de valores negativos en `dias_entrega_limpio`.
+- Ajuste de columnas numéricas clave a `Int64` y exportación a `pedidos_logistica_limpios.csv`[cite: 8, 12, 13].
+
+## Análisis Exploratorio (`analisis_logistica.ipynb`)
+- Validación de ingresos totales, monto de venta total, costos de envío y distribución por tipo de movimiento.
+- Análisis por región y categoría para revisar volumen de pedidos, ingresos y tiempos promedio de entrega.
+
+## Reporte en Power BI (`capturas/dashboard_logistica_ventas.pbix`)[cite: 14]
+El archivo `.pbix` puede descargarse desde este repositorio y abrirse en Power BI Desktop[cite: 14]. Incluye tres páginas:
+
+### 1. Resumen Ejecutivo
+KPIs principales (`500` pedidos, `6,67` días promedio de entrega, `65,2 %` de pedidos entregados e ingreso total de `$102.537.860`) junto al desglose de ingresos por región[cite: 9].
+![Resumen Ejecutivo](capturas/01-resumen-ejecutivo.png)[cite: 9, 14]
+
+### 2. Logística y Entregas
+Filtro por región, distribución de pedidos por estado de entrega, matriz de días promedio por categoría y tipo de movimiento, y días promedio de entrega por región[cite: 10].
+![Logística y Entregas](capturas/02-logistica-entregas.png)[cite: 10, 14]
+
+### 3. Finanzas y Costos
+Tarjetas de Costo Envío Total (`$1.732.360`), Ingreso Total Exacto (`$102.537.860`), Ticket Promedio (`227.731`) y Monto de Venta Total (`$105.929.220`), acompañadas del monto por tipo de movimiento, ingreso por categoría y desglose del costo de envío por tipo de movimiento (`$1.613.600` en ventas y `$118.760` en devoluciones / ajustes)[cite: 7, 11].
+![Finanzas y Costos](capturas/03-finanzas-costos.png)[cite: 11, 14]
