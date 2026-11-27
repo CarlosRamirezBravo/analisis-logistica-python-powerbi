@@ -1,46 +1,34 @@
-# Análisis de Logística, Ventas y Costos con Python y Power BI
+# ETL, Análisis Exploratorio y Dashboard Logístico (Python + Power BI)
 
-Proyecto de análisis de datos de extremo a extremo sobre 500 pedidos logísticos, que abarca limpieza y transformación con Python (`pandas`, `numpy`), análisis exploratorio y un reporte multipágina en Power BI.
-
-## Resumen de Métricas Clave
-- **Total de pedidos:** 500
-- **Ingreso total:** $102.537.860
-- **Tipos de movimiento:** 472 ventas y 28 devoluciones / ajustes
-- **Costo de envío total:** $1.732.360 ($1.613.600 en ventas y $118.760 en devoluciones / ajustes)[cite: 7]
+## Descripción del Proyecto
+Proyecto integral de análisis de datos (*end-to-end*) sobre un registro de **500 pedidos de e-commerce y despacho logístico** en Chile. Abarca desde el diagnóstico y limpieza de datos crudos en **Python (`pandas`, `numpy`)** hasta la construcción de un dashboard ejecutivo de 3 páginas en **Power BI** para el seguimiento de ingresos, lead time y pérdidas por cancelaciones o devoluciones.
 
 ## Estructura del Repositorio
-- `pedidos_logistica_raw.csv`: dataset original con inconsistencias de formato, nulos y fechas mixtas[cite: 8, 12, 13].
-- `pedidos_logistica_limpios.csv`: dataset procesado y estandarizado, listo para análisis y visualización[cite: 8, 12, 13].
-- `etl_pedidos_logistica.ipynb`: notebook de limpieza, normalización, cálculo de métricas base y exportación del CSV limpio[cite: 8, 12, 13].
-- `analisis_logistica.ipynb`: notebook de análisis exploratorio y agrupaciones por región, categoría y tipo de movimiento[cite: 8, 12, 13].
-- `capturas/01-resumen-ejecutivo.png`: vista de Resumen Ejecutivo[cite: 9, 14].
-- `capturas/02-logistica-entregas.png`: vista de Logística y Entregas[cite: 10, 14].
-- `capturas/03-finanzas-costos.png`: vista de Finanzas y Costos[cite: 11, 14].
-- `capturas/dashboard_logistica_ventas.pbix`: archivo del reporte en Power BI Desktop[cite: 14].
+* [`pedidos_logistica_raw.csv`](./pedidos_logistica_raw.csv): dataset original con inconsistencias de formato, fechas mixtas, valores negativos y nulos.
+* [`etl_pedidos_logistica.ipynb`](./etl_pedidos_logistica.ipynb): pipeline ETL de limpieza, estandarización de texto/fechas, preservación de nulos y cálculo de métricas.
+* [`pedidos_logistica_limpios.csv`](./pedidos_logistica_limpios.csv): dataset limpio (500 filas, 15 columnas) listo para análisis y BI.
+* [`analisis_logistica.ipynb`](./analisis_logistica.ipynb): análisis exploratorio (ingreso bruto vs. efectivo, desempeño regional/categoría, evolución mensual y gráficos en `matplotlib`).
+* [`dashboard_logistica_ventas.pbix`](./dashboard_logistica_ventas.pbix): informe interactivo de 3 páginas en Microsoft Power BI.
+* [`capturas/`](./capturas): imágenes de las vistas principales del dashboard.
 
-## Proceso ETL y Calidad de Datos (`etl_pedidos_logistica.ipynb`)
-- Revisión inicial de estructura, tipos de datos, valores nulos y registros duplicados.
-- Limpieza de `monto_venta` (eliminación de símbolos, separadores de miles y conversión numérica segura).
-- Normalización de categorías, regiones y estados de entrega preservando valores faltantes reales.
-- Cálculo de `ingreso_total` y clasificación por `tipo_movimiento` (`Venta` y `Devolución / Ajuste`).
-- Parseo de fechas en distintos formatos, cálculo de `dias_entrega` y separación de valores negativos en `dias_entrega_limpio`.
-- Ajuste de columnas numéricas clave a `Int64` y exportación a `pedidos_logistica_limpios.csv`[cite: 8, 12, 13].
+## Transformaciones Clave en el ETL
+* **Limpieza financiera:** normalización de `monto_venta` eliminando símbolo `$`, sufijos `.0` y puntos de miles; clasificación en `Venta` (472), `Devolución / Ajuste` (7) y `Sin Monto` (21).
+* **Cálculo seguro de ingresos:** uso de `costo_envio.fillna(0)` en ventas positivas para preservar el valor del producto cuando falta el costo de despacho.
+* **Normalización preservando nulos:** unificación de 8 regiones, 6 categorías, clientes y 5 estados de entrega sin convertir los `NaN` reales en texto.
+* **Fechas y Lead Time:** parseo seguro de formatos mixtos (`YYYY-MM-DD` y `DD/MM/YYYY`), cálculo de `dias_entrega` y aislamiento de 8 registros con fechas invertidas en `dias_entrega_limpio`.
 
-## Análisis Exploratorio (`analisis_logistica.ipynb`)
-- Validación de ingresos totales, monto de venta total, costos de envío y distribución por tipo de movimiento.
-- Análisis por región y categoría para revisar volumen de pedidos, ingresos y tiempos promedio de entrega.
+## Principales Hallazgos
+* **Ingreso Bruto vs. Efectivo:** de **109.102.840 CLP** en ventas registradas (`472` órdenes), **69.289.110 CLP** corresponden a pedidos efectivamente entregados (`326` órdenes, **65,2%**), mientras que **16.403.810 CLP** se perdieron en pedidos `Cancelado` (42) o `Devuelto` (25).
+* **Concentración Regional:** la Región Metropolitana concentra el mayor volumen (**240 pedidos**) e ingreso efectivo (**31.872.130 CLP**), seguida por Valparaíso (**10.599.340 CLP**) y Biobío (**10.517.360 CLP**).
+* **Tiempos de Entrega:** sobre **343 entregas válidas**, el lead time promedio es de **6,67 días** (mediana de **7,0 días**), variando entre **6,05 días** en Araucanía y **8,00 días** en Coquimbo.
 
-## Reporte en Power BI (`capturas/dashboard_logistica_ventas.pbix`)[cite: 14]
-El archivo `.pbix` puede descargarse desde este repositorio y abrirse en Power BI Desktop[cite: 14]. Incluye tres páginas:
+## Dashboard en Power BI
 
 ### 1. Resumen Ejecutivo
-KPIs principales (`500` pedidos, `6,67` días promedio de entrega, `65,2 %` de pedidos entregados e ingreso total de `$102.537.860`) junto al desglose de ingresos por región[cite: 9].
-![Resumen Ejecutivo](capturas/01-resumen-ejecutivo.png)[cite: 9, 14]
+![Resumen Ejecutivo](capturas/01-resumen-ejecutivo.png)
 
 ### 2. Logística y Entregas
-Filtro por región, distribución de pedidos por estado de entrega, matriz de días promedio por categoría y tipo de movimiento, y días promedio de entrega por región[cite: 10].
-![Logística y Entregas](capturas/02-logistica-entregas.png)[cite: 10, 14]
+![Logística y Entregas](capturas/02-logistica-entregas.png)
 
 ### 3. Finanzas y Costos
-Tarjetas de Costo Envío Total (`$1.732.360`), Ingreso Total Exacto (`$102.537.860`), Ticket Promedio (`227.731`) y Monto de Venta Total (`$105.929.220`), acompañadas del monto por tipo de movimiento, ingreso por categoría y desglose del costo de envío por tipo de movimiento (`$1.613.600` en ventas y `$118.760` en devoluciones / ajustes)[cite: 7, 11].
-![Finanzas y Costos](capturas/03-finanzas-costos.png)[cite: 11, 14]
+![Finanzas y Costos](capturas/03-finanzas-costos.png)
